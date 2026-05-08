@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Tomb of the Mask Clone</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+<div class="game-wrapper">
+
+  <div class="top-bar">
+    <div>⭐ Punti: <span id="score">0</span></div>
+    <div>❤️ <span id="lives">3</span></div>
+  </div>
+
+  <canvas id="gameCanvas"></canvas>
+
+  <div class="mobile-controls">
+
+    <button class="control-btn" data-dir="up">⬆️</button>
+
+    <div class="middle-row">
+      <button class="control-btn" data-dir="left">⬅️</button>
+      <button class="control-btn" data-dir="right">➡️</button>
+    </div>
+
+    <button class="control-btn" data-dir="down">⬇️</button>
+
+  </div>
+
+  <div class="instructions">
+    Desktop: WASD o Frecce • Mobile: controlli touch
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
